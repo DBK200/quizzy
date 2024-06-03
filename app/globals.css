@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: #000925;
+}
+
+main {
+  padding: 1rem;
+}
+
+h1,
+h2 {
+  color: #eee;
+}
+
+p {
+  color: #eee;
+}
+
+h3 {
+  padding-bottom: 2rem;
+  color: #f9f9f9;
+  font-size: 1.8rem;
+}
+
+button {
+  padding: 16px 10px;
+  width: 70%;
+  margin-top: 12px;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #0acdf5;
+  color: #f8f8f8;
+}
+
+.home-button {
+  padding: 16px 3px;
+  width: 15%;
+  margin-top: 12px;
+  text-align: center;
+  font-size: 1rem;
+  border-radius: 1px;
+  cursor: pointer;
+  background-color: #000925;
+  color: #f8f8f8;
+}
+
+.btn-disabled {
+  background-color: lightgray;
+}
+
+li {
+  list-style-type: none;
+  cursor: pointer;
+  margin: 9px 0;
+  padding: 16px 8px;
+  color: #f6f8ff;
+  border: 1px solid rgb(159, 159, 159);
+}
+
+.li-hover:hover {
+  color: rgb(0, 0, 0);
+  background-color: #f2f2f2;
+  columns: rgb(0, 0, 0);
+}
+
+.li-selected {
+  color: rgb(255, 255, 255);
+  background-color: #000925;
+}
+
+.container {
+  max-width: 740px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+  display: grid;
+}
+
+.quiz-container {
+  background-color: #000925;
+  padding: 1rem;
+  margin-top: 2rem;
+  border-radius: 4px;
+}
+
+.container p {
+  padding: 8px 0;
+}
